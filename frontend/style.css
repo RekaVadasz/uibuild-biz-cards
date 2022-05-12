@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffeedf;
+}
+
+
+.card {
+    width: 290px;
+    height: 416px;
+    padding: 27px;
+    background-color: #fff;
+}
+
+h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: #33793f;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #999;
+    line-height: 51px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #999;
+}
+
+@media screen and (min-width: 1060px) {
+    #container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 62px;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1059px){
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        row-gap: 62px;
+        align-items: center;
+        padding: 62px;
+    }
+}
+    
